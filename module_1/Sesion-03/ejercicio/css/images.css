@@ -1,0 +1,16 @@
+.imagen {
+	border: 10px solid green;
+	border-radius: 50%;
+	display: block;
+	float: left;
+	height: 200px;
+	margin-right: 20px;
+	padding: 2px;
+	width: auto;
+}
+
+.img-right {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
