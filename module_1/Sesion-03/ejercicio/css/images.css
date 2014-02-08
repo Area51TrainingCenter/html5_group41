@@ -14,3 +14,10 @@
 	margin-left: 20px;
 	margin-right: 0;
 }
+
+.fondo {
+	background: url("../images/pinguino.jpg") no-repeat center;
+	/*background-image: url("../images/pinguino.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;*/
+}

@@ -1,5 +1,6 @@
 table {
 	border: 1px solid #000;
+	margin-bottom: 40px;
 }
 
 table tr th {
@@ -9,3 +10,45 @@ table tr th {
 table tr td {
 	border: 1px solid #000;
 }
+
+.mkt-activities {
+	border: none;
+	border-collapse: none;
+	border-spacing: 1px;
+	font-family: sans-serif;
+}
+
+.mkt-activities thead th {
+	background-color: #6B95C4;
+	border: none;
+	border-bottom: 2px solid white;
+	color: white;
+	font-weight: normal;
+	margin: 0;
+	text-align: left;
+	padding: 4px 8px;
+}
+
+.mkt-activities tbody tr td {
+	border: none;
+	margin: 0;
+	padding: 4px 8px;
+}
+
+.mkt-activities tbody tr.weeks td {
+	color: #6B95C4;
+}
+
+.mkt-activities tbody tr {
+	background-color: #ccc;
+}
+
+.mkt-activities tbody tr.even {
+	background-color: #eee;
+}
+
+
+
+
+
+
