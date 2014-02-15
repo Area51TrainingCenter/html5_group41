@@ -1,0 +1,54 @@
+header {
+	background: url("../images/avion.png") no-repeat right bottom,
+	            url("../images/cielo.jpg") center bottom;
+	height: 300px;
+}
+
+.linear-gradient-h {
+	background: linear-gradient(red, blue);
+	height: 300px;
+	width: 300px;
+}
+
+.linear-gradient-v {
+	background: linear-gradient(to right, red, blue);
+	height: 300px;
+	width: 300px;
+}
+
+.diagonal-gradient {
+	background: linear-gradient(to bottom right, red, blue);
+	height: 300px;
+	width: 300px;
+}
+
+.radial-gradient {
+	background: radial-gradient(red, blue);
+	height: 300px;
+	width: 300px;
+}
+
+.shadow {
+	box-shadow: 10px 10px 20px 20px rgba(0,0,0,0.3);
+	height: 100px;
+	margin: 100px auto;
+	width: 100px;
+}
+
+.inset-shadow {
+	box-shadow: inset 10px 10px 20px 20px rgba(0,0,0,0.3);
+	height: 100px;
+	margin: 100px auto;
+	width: 100px;
+}
+
+.text-shadow {
+	text-shadow: 2px 2px 5px red;
+}
+
+
+
+
+
+
+
