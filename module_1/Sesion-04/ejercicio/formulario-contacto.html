@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario de Contacto</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Datos Personales</legend>
+
+				<label for="nombre">Nombre: (*)</label>
+				<input id="nombre" name="nombre" type="text" required>
+				<br>
+
+				<label for="apellidos">Apellidos: (*)</label>
+				<input id="apellidos" name="apellidos" type="text" required>
+				<br>
+
+				<label for="edad">Edad:</label>
+				<input id="edad" name="edad" type="number">
+				<br>
+
+				<label for="nacimiento">Fecha de nacimiento: (*)</label>
+				<input id="nacimiento" name="nacimiento" type="date" required>
+			</fieldset>
+
+			<fieldset>
+				<legend>Datos de Contacto</legend>
+
+				<label for="email">Correo electrónico: (*)</label>
+				<input id="email" name="email" type="email" required>
+				<br>
+
+				<label for="telefono">Teléfono:</label>
+				<input id="telefono" name="telefono" type="tel">
+				<br>
+
+				<label for="direccion">Dirección:</label>
+				<input id="direccion" name="direccion" type="text">
+			</fieldset>
+			<fieldset>
+				<legend>Mensaje, consulta o sugerencia</legend>
+				<label for="mensaje">(*)</label>
+				<textarea id="mensaje" name="mensaje" cols="30" rows="6" required></textarea>
+			</fieldset>
+			<button id="enviar" name="enviar">Enviar datos</button>
+			<button type="reset">Limpiar campos</button>
+		</form>
+	</body>
+</html>
+
+
+
+
+
+
+
+

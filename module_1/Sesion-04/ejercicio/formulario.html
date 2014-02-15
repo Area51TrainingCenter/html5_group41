@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formularios</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<label for="nombre">Nombre:</label>
+				<input id="nombre" name="nombre" type="text">
+				<br>
+
+				<input id="opcion-si" name="opciones" type="radio" checked>
+				<label for="opcion-si">Sí</label>
+				<br>
+
+				<input id="opcion-no" name="opciones" type="radio">
+				<label for="opcion-no">No</label>
+				<br>
+
+				<input id="deporte-1" name="deporte-1" type="checkbox">
+				<label for="deporte-1">Fútbol</label>
+				<br>
+
+				<input id="deporte-2" name="deporte-2" type="checkbox">
+				<label for="deporte-2">Vóley</label>
+				<br>
+
+				<input id="deporte-3" name="deporte-3" type="checkbox">
+				<label for="deporte-3">Básquet</label>
+				<br>
+
+				<label for="tipo-transporte">Tipo de Transporte:</label>
+				<select id="tipo-transporte" name="tipo-transporte">
+					<optgroup label="Aéreo">
+						<option>Aviones</option>
+						<option>Dirigibles</option>
+						<option>Helicópteros</option>
+					</optgroup>
+					<optgroup label="Marítimo">
+						<option>Barcos</option>
+						<option>Buques</option>
+						<option>Submarinos</option>
+					</optgroup>
+					<optgroup label="Terrestre">
+						<option>Carros</option>
+						<option>Motocicletas</option>
+						<option>Trenes</option>
+					</optgroup>
+				</select>
+				<legend>Datos iniciales</legend>
+			</fieldset>
+			<fieldset>
+				<label for="color">Elije tu color favorito:</label>
+				<input id="color" name="color" type="color">
+				<br>
+
+				<label for="nacimiento">Fecha de nacimieto:</label>
+				<input id="nacimiento" name="nacimiento" type="date">
+				<br>
+
+				<input id="rango-edad" name="rango-edad" min="18" max="45" type="range">
+				<br>
+
+				<label for="email">Correo electrónico:</label>
+				<input id="email" name="email" type="email">
+				<br>
+
+				<label for="numero">Número:</label>
+				<input id="numero" name="numero" type="number">
+				<br>
+
+				<label for="mensaje">Deje su mensaje:</label>
+				<textarea id="mensaje" name="mensaje" cols="50" rows="6"></textarea>
+				<legend>Mensaje</legend>
+			</fieldset>
+			<button id="enviar" name="enviar">Enviar datos</button>
+		</form>
+	</body>
+</html>
+
+
+
+
+
+
+
+
