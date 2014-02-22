@@ -1,0 +1,83 @@
+body {
+	background-color: #ccc;
+}
+
+.rompecabezas {
+	margin: 0 auto;
+	width: 640px;
+}
+
+.rompecabezas div {
+	background-image: url("../images/sprite.jpg");
+	float: left;
+	height: 120px;
+	width: 160px;
+}
+
+.box-1 {
+	background-position: 0 -120px;
+}
+
+.box-3 {
+	background-position: 0 -240px;
+}
+
+.box-4 {
+	background-position: -320px 0;
+}
+
+.box-5 {
+	background-position: -480px -240px;
+}
+
+.box-6 {
+	background-position: -480px -120px;
+}
+
+.box-7 {
+	background-position: -160px 0;
+}
+
+.box-8 {
+	background-position: -160px -120px;
+}
+
+.box-9 {
+	background-position: -320px -120px;
+}
+
+.box-10 {
+	background-position: -480px -360px;
+}
+
+.box-11 {
+	background-position: 0 -360px;
+}
+
+.box-12 {
+	background-position: -320px -240px;
+}
+
+.box-13 {
+	background-position: -320px -360px;
+}
+
+.box-14 {
+	background-position: -480px 0;
+}
+
+.box-15 {
+	background-position: -160px -360px;
+}
+
+.box-16 {
+	background-position: -160px -240px;
+}
+
+
+
+
+
+
+
+
