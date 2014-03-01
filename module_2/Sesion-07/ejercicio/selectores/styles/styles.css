@@ -1,0 +1,77 @@
+
+.pregunta {
+	color: blue;
+}
+
+#respuesta {
+	color: green;
+}
+
+.comentarios > p {
+	color: peru;
+}
+
+div + p {
+	color: blue;
+}
+
+.pregunta, #respuesta, div p {
+	text-decoration: underline;
+}
+
+p[title] {
+	text-decoration: line-through;
+}
+
+*[class="comentarios"] {
+	border: 1px solid blue;
+}
+
+ul li {
+	border-top: 1px solid red;	
+}
+
+ul li:first-child {
+	border-top: none;
+}
+
+ul li:last-child {
+	border-bottom: 1px solid blue;
+}
+
+ul li:nth-child(even) {
+	background-color: #ccc;
+}
+
+ul li:nth-child(odd) {
+	background-color: #ddd;
+}
+
+ul li:hover {
+	background-color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	color: peru;
+}
+
+a:focus {
+	color: green;
+}
+
+.saludo::before {
+	background-color: red;
+	content: "";
+	display: block;
+	height: 10px;
+	width: 10px;
+}
+
+
+
+
+
