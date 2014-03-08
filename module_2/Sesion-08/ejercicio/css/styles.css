@@ -1,0 +1,49 @@
+div {
+	background-color: red;
+	height: 100px;
+	margin: 30px;
+	width: 100px;
+}
+.translate:hover {
+	-webkit-transform: translate(40px, 40px);
+	transform: translate(40px, 40px);
+}
+.rotate {
+	-webkit-transform-origin: right bottom;
+	transform-origin: right bottom;
+	transition: -webkit-transform 1s;
+	transition: transform 1s;
+}
+.rotate:hover {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.scale {
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
+}
+.scale:hover {
+	-webkit-transform: scale(2,2);
+	transform: scale(2,2);
+}
+.skew:hover {
+	-webkit-transform: skew(-20deg,-20deg);
+	transform: skew(-20deg,-20deg);
+}
+.rotatex:hover {
+	-webkit-transform: rotateX(45deg);
+	transform: rotateX(45deg);
+}
+.rotatey:hover {
+	-webkit-transform: rotateY(45deg);
+	transform: rotateY(45deg);
+}
+.transition {
+	transition: width 0.5s, background-color 0.5s;
+}
+.transition:hover {
+	background-color: blue;
+	width: 150px;
+}
+
+
