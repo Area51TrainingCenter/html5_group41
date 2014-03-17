@@ -1,0 +1,195 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after {
+	content: ""; display: table;
+}
+.clearfix:after{ clear: both; }
+.clearfix { zoom: 1; }
+
+body {
+	background-color: #eee;
+	color: #111;
+	font: normal 12px/1.4 Arial, helvetica, sans-serif;
+}
+
+.wrapper {
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 10px 20px 20px;
+	width: 720px;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+header h1 {
+	background: transparent url("../images/logo.jpg") no-repeat 0 0;
+	float: left;
+	height: 66px;
+	text-indent: -9999px;
+	width: 252px;
+}
+
+.main-menu {
+	float: right;
+}
+
+.main-menu ul {
+	font: bold 14px Georgia;
+	list-style: none;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.main-menu ul li a {
+	color: #111;
+	text-decoration: none;
+}
+
+.main-menu ul li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	border-bottom: 2px solid #111;
+	padding-top: 20px;
+}
+
+.banner {
+	padding-top: 0;
+}
+
+.banner img {
+	margin-bottom: 20px;
+}
+
+.banner p {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 auto 20px;
+	text-align: center;
+	width: 480px;
+}
+
+.categories {
+	float: left;
+	width: 155px;
+}
+
+h2 {
+	border-bottom: 1px solid #999;
+	color: #999;
+	font: bold 14px Georgia;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.cat-list ul {
+	list-style: none;
+}
+
+.cat-list ul li {
+	margin-bottom: 6px;
+}
+
+.cat-list ul li a {
+	color: #999;
+	text-decoration: none;
+}
+
+.cat-list ul li a:hover {
+	color: #111;
+	text-decoration: underline;
+}
+
+.panels {
+	float: left;
+	margin-bottom: 20px;
+	width: 525px;
+}
+
+.panel {
+	border-bottom: 1px solid #999;
+	float: left;
+	margin: 0 0 20px 20px;
+	text-align: center;
+	width: 155px;
+}
+
+.panel img {
+	margin-bottom: 20px;
+}
+
+.panel h3 {
+	font: bold 12px Georgia;
+	margin-bottom: 20px;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+.panel h3 a {
+	color: #999;
+	text-decoration: none;
+}
+
+.panel h3 a:hover {
+	color: #111;
+}
+
+.img-text {
+	border-bottom: none;
+	margin-bottom: 40px;
+}
+
+.img-text img {
+	float: left;
+}
+
+.img-text .text {
+	float: right;
+	width: 390px;
+}
+
+footer {
+	background-color: #111;
+	color: #999;
+	font-size: 10px;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.footer-menu ul {
+	list-style: none;
+	margin: 0 auto 20px;
+	width: 426px;
+}
+
+.footer-menu ul li {
+	border-left: 2px solid #fff;
+	float: left;
+	font: bold 12px Georgia;
+	padding: 0 25px;
+	text-transform: uppercase;
+}
+
+.footer-menu ul li:first-child {
+	border-left: none;
+}
+
+.footer-menu ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+	color: #999;
+}
