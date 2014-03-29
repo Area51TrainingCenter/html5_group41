@@ -1,5 +1,5 @@
 function loadHTML() {
-    
+
     loadSlider();
 
     var container = document.getElementById("list");

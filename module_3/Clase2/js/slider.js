@@ -2,7 +2,7 @@ function loadSlider() {
 
     var sliderList = [];
     var thumbList = [];
-
+    
     for (var index = 0; index < images.length; index++) {
 
         //obteniendo el objeto de la lista images
