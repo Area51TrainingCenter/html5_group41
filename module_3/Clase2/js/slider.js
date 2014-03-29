@@ -55,7 +55,10 @@ function renderSlide(index) {
     //SUERTE!!
     index = index - 1;
     var slide = images[index];
-    console.log(slide);
 
+    var sliderContainer = document.getElementById('slider-container');
 
+    sliderContainer.children[0].innerHTML = slide.title;
+    sliderContainer.children[1].setAttribute('src', slide.src);
+    sliderContainer.children[2].innerHTML = slide.caption;
 }
