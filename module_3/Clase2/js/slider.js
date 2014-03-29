@@ -16,6 +16,9 @@ function loadSlider() {
     //renderizando la lista de thumbails
     renderThumbList(thumbList);
 
+    //renderizando el slide
+    renderSlide(1);
+
 }
 
 function renderThumbList(thumbList) {
@@ -28,7 +31,6 @@ function renderThumbList(thumbList) {
         //renderizando los thumbails
         list.appendChild(thumbList[index]);
     }
-
 }
 
 function renderThumb(slide) {
@@ -39,15 +41,21 @@ function renderThumb(slide) {
     image.setAttribute('src', slide.src);
     image.setAttribute('alt', slide.caption);
     image.setAttribute('title', slide.title);
-    image.setAttribute('width', '120px');
-    image.setAttribute('height', '120px');
+    image.setAttribute('width', '80px');
+    image.setAttribute('height', '80px');
+    image.setAttribute('onmouseover', 'renderSlide(' + slide.id + ')');
 
     span.appendChild(image);
 
     return span;
 }
 
-function renderSlide() {
+function renderSlide(index) {
+
+    //SUERTE!!
+    index = index - 1;
+    var slide = images[index];
+    console.log(slide);
 
 
 }
