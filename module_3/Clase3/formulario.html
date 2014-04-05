@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/form.js"></script>
+    </head>
+    <body>
+        <div id="form">
+            
+            <form method="" action="" id="register-form">
+                <div>
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" />
+                </div>
+                <div>
+                    <label>Apellidos:</label>
+                    <input type="text" name="apellidos" />
+                </div>
+                <div>
+                    <label>Fecha de nacimiento:</label>
+                    <input type="text" name="fecha" />
+                </div>
+                <div>
+                    <label>Ocupacion:</label>
+                    <select name="ocupacion">
+                        <option selected="selected" value="none">-Ninguno-</option>
+                        <option value="albanil">Albañil</option>
+                        <option value="carpintero">Carpintero</option>
+                        <option value="vidriero">Vidriero</option>
+                        <option value="cerrajero">Cerrajero</option>
+                    </select>                    
+                </div>
+                
+                 <div>
+                    <label>Fecha de nacimiento:</label>
+                    <input type="radio" name="sexo" value="Masculino" checked /><span>Masculino</span>
+                    <input type="radio" name="sexo" value="Femenino" /><span>Femenino</span>
+                </div>
+                
+                 <div>
+                    <input type="checkbox" name="recibir" value="si" checked /><span>Desea recibir nuestras notificaciones</span>
+                </div>
+                
+                
+                 <div>
+                    <input type="submit" name="submit" value="Enviar registro" checked />
+                </div>
+                
+                
+            </form>
+            
+        </div>
+    </body>
+</html>

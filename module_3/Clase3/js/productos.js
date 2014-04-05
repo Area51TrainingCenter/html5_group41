@@ -12,7 +12,7 @@ var productos = [
     {id: 'tv01',
         nombre: 'Televisor 15"',
         imagen: 'images/tv01.jpg',
-        categoria: [1,3],
+        categoria: [0],
         cantidad:25
     },
     {id: 'ra01',
@@ -24,7 +24,7 @@ var productos = [
     {id: 'tv02',
         nombre: 'Television 70"',
         imagen: 'images/tv02.jpg',
-        categoria: [1,3],
+        categoria: [4],
         cantidad:25
     },
     {id: 'lav01',
@@ -34,3 +34,5 @@ var productos = [
         cantidad:25
     }
 ];
+
+var cart = [];
