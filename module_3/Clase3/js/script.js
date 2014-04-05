@@ -24,6 +24,7 @@ function loadHTML() {
         $(nombre).html(producto.nombre);
         
         //añadiendo los nombre a la lista
+        
         $(listcontainer).append(nombre);
 
     });
