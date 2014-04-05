@@ -17,7 +17,7 @@ var productos = [
     },
     {id: 'ra01',
         nombre: 'Radio',
-        imagen: 'images/radio.jpg',
+        imagen: 'images/ra01.jpg',
         categoria: [3],
         cantidad:25
     },
