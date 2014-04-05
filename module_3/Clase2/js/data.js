@@ -19,8 +19,7 @@ var images = [
         id: "1",
         src: "images/01.jpg",
         title: 'StarWars First',
-        caption: 'StarWars Javascript Slider',
-        video_reference: "youtube"
+        caption: 'StarWars Javascript Slider'
     },
     {
         id: "2",

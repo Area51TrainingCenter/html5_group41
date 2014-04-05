@@ -35,7 +35,10 @@ function renderThumbList(thumbList) {
 
 function renderThumb(slide) {
 
+    //Creando etiqueta span para contener la imagen thumb
     var span = document.createElement('span');
+    
+    //creando el elemento img para el thumb
     var image = document.createElement('img');
 
     image.setAttribute('src', slide.src);

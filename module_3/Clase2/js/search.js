@@ -19,8 +19,9 @@ function searchNews(obj) {
         var keyvalue = new RegExp(keyvalue);
 
         //Haciendo la busqueda dentro de la lista de noticias
+        // Busqueda se realiza en el titulo o en la noticia
         if (keyvalue.test(datanews[index][0]) || keyvalue.test(datanews[index][1])) {
-            
+
             //añadiendo la noticias encontrada a 
             //nuestra lista de coincidencias
             listSearch.push(index);
