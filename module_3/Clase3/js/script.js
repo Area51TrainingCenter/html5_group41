@@ -1,5 +1,12 @@
-$(document).ready(
-        function() {
-            alert("Esto es jQuery 1");
-        }
-);
+$(document).ready(function() {
+
+    var link = $('a.ver-mas');
+
+    $('a.ver-mas').click(function() {
+        
+        
+
+    });
+
+});
+
