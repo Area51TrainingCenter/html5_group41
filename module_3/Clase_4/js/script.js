@@ -6,7 +6,9 @@ $().ready(function() {
 
         var href = $(this).attr('href');
 
-        $('#content').load(href);
+        $('#content').slideToggle(500, function() {
+            $(this).load(href).slideToggle(500);
+        });
 
         event.preventDefault();
     });
