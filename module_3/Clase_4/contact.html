@@ -1,3 +1,49 @@
 <div class="content-page">
-    Contact
+    <form id='contacto-form'>
+        <div>
+            <label>Nombre:</label>
+            <input type='text' name='nombre' />
+        </div>
+        <div>
+            <label>E-mail:</label>
+            <input type='text' name='email' />
+        </div>
+        <div>
+            <label>Telefono:</label>
+            <input type='text' name='telefono' />
+        </div>
+        <div>
+            <label>Comentario</label>
+            <textarea name='comentario'></textarea>
+        </div>
+        <div>
+            <input type="submit" name="enviar" value="Enviar">
+        </div>
+    </form>
+    <script src="js/jquery.validate.min.js"></script>
+    <script type='text/javascript'>
+
+        $().ready(function() {
+
+            $("#contacto-form").validate({
+                rules: {
+                    nombre: "required",
+                    telefono: "required",
+                    comentario: "required",
+                    email: {
+                        required: true,
+                        email: true
+                    }
+                }, messages: {
+                    nombre: "Escribe tu nombre ca*****",
+                    telefono: "Ingresa el telefono",
+                    email: "Ingresa un email valido",
+                    comentario: "Ingresa una fecha correcta",
+                }
+            });
+
+        });
+
+    </script>
+
 </div>
