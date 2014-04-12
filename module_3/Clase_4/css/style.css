@@ -1,3 +1,21 @@
+#categories {
+    padding: 10px;
+    margin: 0 auto;
+    width: 250px;
+    float:left;
+}
+#categories ul{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    float:left;
+}
+#news {
+    padding: 10px;
+    margin: 0 auto;
+    width: 650px;
+    float:right;
+}
 .menu {
     padding: 10px;
     margin: 0 auto;
